@@ -1,0 +1,1732 @@
+2023.11.20 20:03:32 INFO  Started: Metals version 1.1.0 in folders '/Users/mingma/scala-project' for client Visual Studio Code 1.84.2.
+2023.11.20 20:03:34 WARN  Build server is not auto-connectable.
+2023.11.20 20:03:34 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.20 20:03:34 WARN  no build target for: /Users/mingma/scala-project/build.sbt
+Nov. 20, 2023 8:03:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Nov. 20, 2023 8:03:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.11.20 20:03:58 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.20 20:04:01 INFO  time: code lens generation in 26s
+2023.11.20 20:04:01 INFO  time: code lens generation in 9.98s
+2023.11.20 20:04:01 INFO  time: code lens generation in 1.97s
+2023.11.20 20:04:03 INFO  time: evaluated worksheet 'example.worksheet.sc' in 29s
+2023.11.20 20:04:05 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.20 20:23:00 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.20 20:23:01 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.9s
+2023.11.20 20:27:13 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.20 20:27:14 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.78s
+2023.11.20 20:27:19 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.20 20:27:20 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.61s
+2023.11.21 10:30:49 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 10:30:49 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.74s
+2023.11.21 10:31:33 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+  1 && "Sound 
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.21 10:31:35 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+  1 && "Sound a 
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.21 10:31:36 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+  1 && "Sound and  
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.21 10:31:36 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+  1 && "Sound and Vis 
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.21 10:31:37 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+  1 && "Sound and Vision 
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.21 10:31:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:13:1: 
+value && is not a member of Int
+1 && "Sound and Vision"
+^^^^
+2023.11.21 10:31:43 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.38s
+Nov. 21, 2023 11:21:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 397
+2023.11.21 11:21:54 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:13:1: 
+value && is not a member of Int
+1 && "Sound and Vision"
+^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:16:14: 
+Not found: door
+    facade - door - window *2
+             ^^^^
+2023.11.21 11:21:54 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.36s
+2023.11.21 11:22:23 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:13:1: 
+value && is not a member of Int
+1 && "Sound and Vision"
+^^^^
+2023.11.21 11:22:23 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.26s
+2023.11.21 11:22:26 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:13:1: 
+value && is not a member of Int
+1 && "Sound and Vision"
+^^^^
+2023.11.21 11:22:27 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.24s
+2023.11.21 11:22:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:22:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.53s
+2023.11.21 11:22:36 WARN  Could not find semantic tokens for: file:///Users/mingma/scala-project/build.sbt
+2023.11.21 11:23:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:23:48 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.49s
+Nov. 21, 2023 11:28:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 713
+Nov. 21, 2023 11:28:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 812
+2023.11.21 11:30:16 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:30:16 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.51s
+2023.11.21 11:30:16 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:30:18 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.52s
+2023.11.21 11:30:19 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:30:20 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.46s
+2023.11.21 11:30:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:30:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.39s
+2023.11.21 11:34:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:34:49 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.47s
+2023.11.21 11:35:29 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:35:29 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.4s
+2023.11.21 11:36:01 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:36:01 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.41s
+2023.11.21 11:36:15 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 11:36:15 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.51s
+2023.11.21 16:09:37 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 16:09:37 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.44s
+2023.11.21 16:09:39 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 16:09:40 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.37s
+2023.11.21 18:11:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 18:11:43 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.56s
+2023.11.21 18:36:06 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:47:1: 
+Circle is already defined as class Circle
+case class Circle(radius:Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:49:21: 
+Not found: someShape
+val someShapeArea = someShape match
+                    ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:50:35: 
+Not found: width
+    case Rectangle(width,height)=>width*height
+                                  ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:51:26: 
+Not found: radius
+    case Circle(radius)=>radius*radius*3.14
+                         ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:42:12: 
+Double definition:
+final lazy module object Circle: object MdocApp.this.Circle in class MdocApp at line 79 and
+final lazy module object Circle: object MdocApp.this.Circle in class MdocApp at line 69
+
+case class Circle(radius: Int):
+           ^
+2023.11.21 18:36:07 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.4s
+2023.11.21 18:36:22 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:49:21: 
+Not found: someShape
+val someShapeArea = someShape match
+                    ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:50:35: 
+Not found: width
+    case Rectangle(width,height)=>width*height
+                                  ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:51:26: 
+Not found: radius
+    case Circle(radius)=>radius*radius*3.14
+                         ^^^^^^
+2023.11.21 18:36:23 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.23s
+2023.11.21 18:38:26 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:49:21: 
+Not found: Ranctangle
+val someRectangle = Ranctangle(4,5)
+                    ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:53:35: 
+Not found: width
+    case Rectangle(width,height)=>width*height
+                                  ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:54:26: 
+Not found: radius
+    case Circle(radius)=>radius*radius*3.14
+                         ^^^^^^
+2023.11.21 18:38:26 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.25s
+2023.11.21 18:38:44 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 18:38:44 WARN  Using indexes to guess the definition of radius
+[31merror[39m: src/main/scala/example/example.worksheet.sc:49:19: 
+Not found: type Ractangle
+val someRectangle:Ractangle = Ractangle(4,5)
+                  ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:49:31: 
+Not found: Ractangle
+val someRectangle:Ractangle = Ractangle(4,5)
+                              ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:53:35: 
+Not found: width
+    case Rectangle(width,height)=>width*height
+                                  ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:54:26: 
+Not found: radius
+    case Circle(radius)=>radius*radius*3.14
+                         ^^^^^^
+2023.11.21 18:38:44 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.23s
+2023.11.21 18:39:02 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:54:10: 
+Unreachable case
+    case Circle(radius)=>radius*radius*3.14
+         ^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:54:10: 
+this case is unreachable since type MdocApp.this.Rectangle and class Circle are unrelated
+    case Circle(radius)=>radius*radius*3.14
+         ^
+2023.11.21 18:39:03 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.48s
+2023.11.21 18:39:28 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.21 18:39:29 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.62s
+2023.11.24 10:45:15 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:52:5: 
+Declaration of method calculateArea not allowed here: only classes can have declared but undefined members
+def calculateArea(shape: Shape): Double 
+    ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:53:5: 
+Not found: shape
+    shape match
+    ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:54:37: 
+Not found: width
+    case Rectangle(width,height) => width*height
+                                    ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:55:28: 
+Not found: radius
+    case Circle(radius) => radius*radius*3.14
+                           ^^^^^^
+2023.11.24 10:45:15 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.36s
+2023.11.24 10:46:37 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:52:5: 
+Declaration of method calculateArea not allowed here: only classes can have declared but undefined members
+def calculateArea(shape: Shape): Double 
+    ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:53:5: 
+Not found: shape
+    shape match
+    ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:54:37: 
+Not found: width
+    case Rectangle(width,height) => width*height
+                                    ^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:55:28: 
+Not found: radius
+    case Circle(radius) => radius*radius*3.14
+                           ^^^^^^
+2023.11.24 10:46:37 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.43s
+2023.11.24 10:46:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.24 10:46:49 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.66s
+Nov. 24, 2023 10:47:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/scala-project/.metals/.reports/metals-full/2023-11-24/r_compiler-error_10-47-51-429.md
+2023.11.24 10:47:54 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:1: = expected but \n\n found
+
+^
+2023.11.24 10:47:54 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.36s
+2023.11.24 10:48:11 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:1: = expected but \n\n found
+
+^
+2023.11.24 10:48:11 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.24s
+2023.11.24 10:48:55 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:1: = expected but \n\n found
+
+^
+2023.11.24 10:48:55 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.19s
+2023.11.24 10:49:09 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:1: = expected but \n\n found
+
+^
+2023.11.24 10:49:10 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.24s
+2023.11.24 10:49:17 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.24 10:49:18 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.73s
+2023.11.24 10:49:43 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.24 10:49:43 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.7s
+2023.11.24 10:49:50 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.24 10:49:51 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.55s
+2023.11.25 13:43:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 13:43:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.58s
+2023.11.25 13:52:10 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 13:52:11 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.55s
+2023.11.25 13:53:52 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:1: Enum cases are only allowed in enums
+case Class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+^^^^
+2023.11.25 13:53:52 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.19s
+2023.11.25 13:54:45 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:83: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                                                                                  ^^^^
+2023.11.25 13:54:46 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.32s
+2023.11.25 13:55:51 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:68: error: unclosed quoted identifier
+      case `1,green,purple
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.25 13:55:55 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:68: error: unclosed quoted identifier
+      case `1`,`,purple
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.25 13:55:56 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:68: error: empty quoted identifier
+      case `1`,``,purple
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:485)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.25 13:56:01 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:68: error: unclosed quoted identifier
+      case `1`,`2`,`
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.25 13:58:25 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:68:5: 
+Shape is already defined as trait Shape
+    enum Shape extends Prop:
+    ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:83: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shape, shading: Prop.Shading)
+                                                                                  ^^^^
+2023.11.25 13:58:25 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.39s
+2023.11.25 13:59:04 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:85: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                    ^^^^
+2023.11.25 13:59:04 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.48s
+2023.11.25 14:03:12 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:85: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                    ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:74:20: 
+value && is not a member of MdocApp.this.Prop
+    def allSame = (cardOneProp&&cardTwoProp)&&(cardTwoProp&&cardThreeProp)
+                   ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:75:74: 
+Found:    Unit
+Required: Boolean
+    def allDiff = (cardOneProp!=cardTwoProp)&&(cardTwoProp!=cardThreeProp)        
+                                                                         ^
+2023.11.25 14:03:12 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.56s
+2023.11.25 14:03:44 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:85: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                    ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:75:74: 
+Found:    Unit
+Required: Boolean
+    def allDiff = (cardOneProp!=cardTwoProp)&&(cardTwoProp!=cardThreeProp)        
+                                                                         ^
+2023.11.25 14:03:44 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.4s
+2023.11.25 14:04:00 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:85: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                    ^^^^
+2023.11.25 14:04:00 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.39s
+2023.11.25 14:04:40 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:5: Procedure syntax is not supported. Convert procedure `isSet` to method by adding `: Unit =`.
+def isSet(cardOne:Card, cardTwo:Card, cardOne:Card)
+    ^^^^^
+2023.11.25 14:04:41 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.3s
+2023.11.25 14:04:44 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:5: Procedure syntax is not supported. Convert procedure `isSet` to method by adding `: Unit =`.
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card)
+    ^^^^^
+2023.11.25 14:04:45 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.35s
+2023.11.25 14:04:50 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:1: illegal start of simple expression
+
+^
+2023.11.25 14:04:50 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.28s
+2023.11.25 14:05:45 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:85: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                    ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:19: 
+Not found: type Card
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card): Boolean=
+                  ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:33: 
+Not found: type Card
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card): Boolean=
+                                ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:49: 
+Not found: type Card
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card): Boolean=
+                                                ^^^^
+2023.11.25 14:05:45 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.48s
+2023.11.25 14:05:51 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:24: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                       ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:43: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                          ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:62: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                             ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:85: 
+Not found: Prop
+case class Cards(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                    ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:19: 
+Not found: type Card
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card): Boolean=
+                  ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:33: 
+Not found: type Card
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card): Boolean=
+                                ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:78:49: 
+Not found: type Card
+def isSet(cardOne:Card, cardTwo:Card, cardThree:Card): Boolean=
+                                                ^^^^
+2023.11.25 14:05:51 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.49s
+2023.11.25 14:06:03 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:23: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                      ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:42: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                         ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:61: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                            ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:84: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shape:Prop.Shaping, shading: Prop.Shading)
+                                                                                   ^^^^
+2023.11.25 14:06:03 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.48s
+2023.11.25 14:07:04 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:82:65: 
+expression expected but unindent found
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                                                ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:23: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                      ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:42: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                         ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:63: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                              ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:86: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                                                     ^^^^
+2023.11.25 14:07:05 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.64s
+2023.11.25 14:07:09 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:82:71: 
+expression expected but unindent found
+    checkProperty(cardOne.shading,cardTwo.shading,cardThree.shading)&&
+                                                                      ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:23: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                      ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:42: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                         ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:63: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                              ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:86: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                                                     ^^^^
+2023.11.25 14:07:09 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.52s
+2023.11.25 14:07:12 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:23: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                      ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:42: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                         ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:63: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                              ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:86: 
+Not found: Prop
+case class Card(color:Prop.Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                                                     ^^^^
+2023.11.25 14:07:12 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.44s
+2023.11.25 14:07:33 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:37: 
+Not found: Prop
+case class Card(color:Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                    ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:58: 
+Not found: Prop
+case class Card(color:Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                         ^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:61:81: 
+Not found: Prop
+case class Card(color:Color, number:Prop.Number, shaping:Prop.Shaping, shading: Prop.Shading)
+                                                                                ^^^^
+2023.11.25 14:07:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.43s
+2023.11.25 14:07:46 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:07:47 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.04s
+Nov. 25, 2023 2:09:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6993
+2023.11.25 14:10:47 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:16: 
+Found:    (MdocApp.this.Shaping.diamond : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+               ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:16: 
+Found:    (MdocApp.this.Shaping.oval : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)    
+               ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)    
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:16: 
+Found:    (MdocApp.this.Shaping.squiggle : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+               ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shaping
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+2023.11.25 14:10:48 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.49s
+2023.11.25 14:10:50 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:16: 
+Found:    (MdocApp.this.Shaping.diamond : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+               ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:16: 
+Found:    (MdocApp.this.Shaping.oval : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+               ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:16: 
+Found:    (MdocApp.this.Shaping.squiggle : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+               ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shaping
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+2023.11.25 14:10:51 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.54s
+2023.11.25 14:11:24 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:19: 
+value number is not a member of MdocApp.this.Card
+    checkProperty(cardOne.number,cardTwo.number,cardThree.number)&&
+                  ^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:34: 
+value number is not a member of MdocApp.this.Card
+    checkProperty(cardOne.number,cardTwo.number,cardThree.number)&&
+                                 ^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:49: 
+value number is not a member of MdocApp.this.Card
+    checkProperty(cardOne.number,cardTwo.number,cardThree.number)&&
+                                                ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:16: 
+Found:    (MdocApp.this.Shaping.diamond : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+               ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:32: 
+Found:    (MdocApp.this.Number.1 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                               ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:56: 
+too many arguments for method apply in object Card: (color: MdocApp.this.Color, shaping: MdocApp.this.Shaping, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                                       ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:16: 
+Found:    (MdocApp.this.Shaping.oval : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+               ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:29: 
+Found:    (MdocApp.this.Number.3 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                            ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:52: 
+too many arguments for method apply in object Card: (color: MdocApp.this.Color, shaping: MdocApp.this.Shaping, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                                   ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:16: 
+Found:    (MdocApp.this.Shaping.squiggle : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+               ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:33: 
+Found:    (MdocApp.this.Number.2 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:54: 
+too many arguments for method apply in object Card: (color: MdocApp.this.Color, shaping: MdocApp.this.Shaping, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                                     ^^^^^^^^^^^^
+2023.11.25 14:11:24 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.63s
+2023.11.25 14:11:25 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:19: 
+value number is not a member of MdocApp.this.Card
+    checkProperty(cardOne.number,cardTwo.number,cardThree.number)&&
+                  ^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:34: 
+value number is not a member of MdocApp.this.Card
+    checkProperty(cardOne.number,cardTwo.number,cardThree.number)&&
+                                 ^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:80:49: 
+value number is not a member of MdocApp.this.Card
+    checkProperty(cardOne.number,cardTwo.number,cardThree.number)&&
+                                                ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:16: 
+Found:    (MdocApp.this.Shaping.diamond : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+               ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:32: 
+Found:    (MdocApp.this.Number.1 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                               ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:56: 
+too many arguments for method apply in object Card: (color: MdocApp.this.Color, shaping: MdocApp.this.Shaping, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                                       ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:16: 
+Found:    (MdocApp.this.Shaping.oval : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+               ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:29: 
+Found:    (MdocApp.this.Number.3 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                            ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:52: 
+too many arguments for method apply in object Card: (color: MdocApp.this.Color, shaping: MdocApp.this.Shaping, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                                   ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:16: 
+Found:    (MdocApp.this.Shaping.squiggle : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+               ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:33: 
+Found:    (MdocApp.this.Number.2 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:54: 
+too many arguments for method apply in object Card: (color: MdocApp.this.Color, shaping: MdocApp.this.Shaping, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                                     ^^^^^^^^^^^^
+2023.11.25 14:11:26 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.61s
+2023.11.25 14:11:31 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:16: 
+Found:    (MdocApp.this.Shaping.diamond : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+               ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:32: 
+Found:    (MdocApp.this.Number.1 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                               ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Number
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:16: 
+Found:    (MdocApp.this.Shaping.oval : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+               ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:29: 
+Found:    (MdocApp.this.Number.3 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                            ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Number
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:16: 
+Found:    (MdocApp.this.Shaping.squiggle : MdocApp.this.Shaping)
+Required: MdocApp.this.Color
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+               ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:33: 
+Found:    (MdocApp.this.Number.2 : MdocApp.this.Number)
+Required: MdocApp.this.Shaping
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                ^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Number
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+2023.11.25 14:11:32 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.56s
+2023.11.25 14:11:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:11:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:19: 
+value color is not a member of MdocApp.this.Card - did you mean cardOne.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                  ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:33: 
+value color is not a member of MdocApp.this.Card - did you mean cardTwo.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:47: 
+value color is not a member of MdocApp.this.Card - did you mean cardThree.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                              ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:56: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                                       ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:52: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                                   ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:54: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                                     ^^^^^^^^^^^^
+2023.11.25 14:11:32 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.67s
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:19: 
+value color is not a member of MdocApp.this.Card - did you mean cardOne.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                  ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:33: 
+value color is not a member of MdocApp.this.Card - did you mean cardTwo.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:47: 
+value color is not a member of MdocApp.this.Card - did you mean cardThree.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                              ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:56: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                                       ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:52: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                                   ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:54: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                                     ^^^^^^^^^^^^
+2023.11.25 14:11:33 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:11:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.59s
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:19: 
+value color is not a member of MdocApp.this.Card - did you mean cardOne.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                  ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:33: 
+value color is not a member of MdocApp.this.Card - did you mean cardTwo.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:79:47: 
+value color is not a member of MdocApp.this.Card - did you mean cardThree.clone?
+    checkProperty(cardOne.color,cardTwo.color,cardThree.color)&&
+                                              ^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:43: 
+Found:    (MdocApp.this.Color.purple : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                          ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:84:56: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.diamond,Number.`1`,Color.purple,Shading.stripped)    
+                                                       ^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:40: 
+Found:    (MdocApp.this.Color.green : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                       ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:86:52: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+                                                   ^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:44: 
+Found:    (MdocApp.this.Color.red : MdocApp.this.Color)
+Required: MdocApp.this.Shading
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                           ^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:54: 
+too many arguments for method apply in object Card: (shaping: MdocApp.this.Shaping, number: MdocApp.this.Number, shading:
+  MdocApp.this.Shading): MdocApp.this.Card
+val card2=Card(Shaping.squiggle,Number.`2`,Color.red,Shading.open)    
+                                                     ^^^^^^^^^^^^
+2023.11.25 14:11:34 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.49s
+2023.11.25 14:11:45 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:85:5: 
+Double definition:
+val card1: MdocApp.this.Card in class MdocApp at line 131 and
+val card1: MdocApp.this.Card in class MdocApp at line 139
+
+val card1=Card(Shaping.oval,Number.`3`,Color.green,Shading.solid)
+    ^
+2023.11.25 14:11:45 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.48s
+2023.11.25 14:11:49 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:11:50 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.94s
+2023.11.25 14:12:20 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:12:21 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.9s
+2023.11.25 14:12:53 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:12:54 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.99s
+2023.11.25 14:13:05 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:13:05 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.9s
+2023.11.25 14:13:38 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:89:69: 
+Not found: True
+assert(isSet(cardOne = card1, cardTwo = card2, cardThree = card3 )==True)
+                                                                    ^^^^
+2023.11.25 14:13:38 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.45s
+2023.11.25 14:15:02 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:15:03 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.09s
+2023.11.25 14:15:16 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:15:17 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.86s
+2023.11.25 14:16:59 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:17:00 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.92s
+2023.11.25 14:17:15 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:17:16 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.89s
+2023.11.25 14:17:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:17:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.81s
+2023.11.25 14:17:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.25 14:17:43 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.76s
+2023.11.26 15:35:38 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.26 15:35:38 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.91s
+2023.11.26 15:36:08 INFO  Shutting down server
+2023.11.26 15:36:08 INFO  shutting down Metals
+2023.11.26 15:36:09 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.26 15:36:08 INFO  Exiting server
+2023.11.28 13:39:14 INFO  Started: Metals version 1.1.0 in folders '/Users/mingma/scala-project' for client Visual Studio Code 1.84.2.
+2023.11.28 13:39:15 WARN  Build server is not auto-connectable.
+2023.11.28 13:39:15 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 13:39:23 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.28 13:39:25 INFO  time: evaluated worksheet 'example.worksheet.sc' in 9.26s
+2023.11.28 13:39:28 INFO  time: code lens generation in 11s
+2023.11.28 13:39:28 INFO  time: code lens generation in 10s
+2023.11.28 13:39:28 INFO  time: code lens generation in 3.08s
+2023.11.28 13:39:28 INFO  time: code lens generation in 10s
+2023.11.28 13:39:28 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+Nov. 28, 2023 1:39:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Nov. 28, 2023 1:39:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Nov. 28, 2023 1:39:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Nov. 28, 2023 1:39:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Nov. 28, 2023 1:39:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2023.11.28 13:39:30 INFO  time: code lens generation in 1.52s
+2023.11.28 13:39:30 INFO  time: code lens generation in 1.59s
+2023.11.28 13:40:10 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:93:1: 
+Not found: mutable
+mutable.ArrayBuffer(1,2).flatMap(x=>mutable.ArrayBuffer(x,x*2))
+^^^^^^^
+2023.11.28 13:40:11 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.88s
+2023.11.28 13:41:41 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 13:41:43 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.85s
+Nov. 28, 2023 3:07:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 628
+2023.11.28 15:08:13 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:101: error: unclosed character literal
+  val domain: String=>String = email.dropWhile(c=>c!='')
+                                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.28 15:08:21 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:30: 
+Not found: email
+val domain: String=>String = email.dropWhile(c=>c!='@').drop()
+                             ^^^^^
+2023.11.28 15:08:22 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.92s
+2023.11.28 15:08:24 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:30: 
+Not found: email
+val domain: String=>String = email.dropWhile(c=>c!='@').drop(1)
+                             ^^^^^
+2023.11.28 15:08:25 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.85s
+Nov. 28, 2023 3:08:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/scala-project/.metals/.reports/metals-full/2023-11-28/r_compiler-error_15-08-35-411.md
+2023.11.28 15:08:39 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:30: 
+Not found: email
+val domain: String=>String = email.dropWhile(c=>c!='@').drop(1)
+                             ^^^^^
+2023.11.28 15:08:40 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.77s
+2023.11.28 15:08:56 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:30: 
+Not found: email
+val domain: String=>String = email.dropWhile(c=>c!='@').drop(1)
+                             ^^^^^
+2023.11.28 15:08:57 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.77s
+Nov. 28, 2023 3:09:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/scala-project/.metals/.reports/metals-full/2023-11-28/r_compiler-error_15-09-01-021.md
+2023.11.28 15:09:21 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String):String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:36: 
+pattern's type (<error Not found: domain>#unapply : <error Not found: domain>) is more specialized than the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String):String = email.dropWhile(c=>c!='@').drop(1)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:09:22 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.89s
+2023.11.28 15:09:28 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String): String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:37: 
+pattern's type (<error Not found: domain>#unapply : <error Not found: domain>) is more specialized than the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String): String = email.dropWhile(c=>c!='@').drop(1)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:09:29 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.69s
+2023.11.28 15:09:59 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:32: 
+Not found: email
+val domain: String => String = email.dropWhile(c=>c!='@').drop(1)
+                               ^^^^^
+2023.11.28 15:10:00 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.99s
+Nov. 28, 2023 3:12:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/scala-project/.metals/.reports/metals-full/2023-11-28/r_compiler-error_15-12-30-144.md
+2023.11.28 15:12:34 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.11.28 15:12:34 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:47: 
+pattern's type String => String does not match the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:12:34 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.94s
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:47: 
+pattern's type String => String does not match the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:12:36 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.7s
+2023.11.28 15:12:39 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 15:12:39 WARN  Using indexes to guess the definition of domain
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:47: 
+pattern's type String => String does not match the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:12:40 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.59s
+2023.11.28 15:12:40 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:47: 
+pattern's type String => String does not match the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String): String => String = email.dropWhile(c=>c!='@').drop(1)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:12:41 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.66s
+2023.11.28 15:12:52 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:100:5: 
+Not found: domain
+val domain(email: String): String = email.dropWhile(c=>c!='@').drop(1)
+    ^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:102:35: 
+Not found: domain
+val emailsByDomain=emails.groupBy(domain)
+                                  ^^^^^^
+[33mwarning[39m: src/main/scala/example/example.worksheet.sc:100:37: 
+pattern's type (<error Not found: domain>#unapply : <error Not found: domain>) is more specialized than the right hand side expression's type String
+
+If the narrowing is intentional, this can be communicated by adding `: @unchecked` after the expression,
+which may result in a MatchError at runtime.
+val domain(email: String): String = email.dropWhile(c=>c!='@').drop(1)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 15:12:53 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.54s
+2023.11.28 15:13:38 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 15:13:40 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.26s
+2023.11.28 15:51:38 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 15:51:39 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.03s
+2023.11.28 15:53:04 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:103:56: 
+expression expected but ')' found
+val data = List("Alice"->42,"Bob"->30,"Wer"->77,"Owl"->)
+                                                       ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:105:25: 
+No implicit Ordering defined for Int | Null..
+I found:
+
+    scala.math.Ordering.ordered[Int | Null](
+      /* missing */summon[scala.math.Ordering.AsComparable[Int | Null]])
+
+But no implicit values were found that match type scala.math.Ordering.AsComparable[Int | Null].
+data.sortBy((_,age)=>age)
+                        ^
+2023.11.28 15:53:04 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.63s
+2023.11.28 15:53:13 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:103:56: 
+expression expected but ')' found
+val data = List("Alice"->42,"Bob"->30,"Wer"->77,"Owl"->)
+                                                       ^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:105:25: 
+No implicit Ordering defined for Int | Null..
+I found:
+
+    scala.math.Ordering.ordered[Int | Null](
+      /* missing */summon[scala.math.Ordering.AsComparable[Int | Null]])
+
+But no implicit values were found that match type scala.math.Ordering.AsComparable[Int | Null].
+data.sortBy((_,age)=>age)
+                        ^
+2023.11.28 15:53:13 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.63s
+2023.11.28 15:58:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 15:58:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.08s
+2023.11.28 16:00:03 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 16:00:04 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.13s
+2023.11.28 20:14:50 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:110:66: 
+Not found: type task
+case class Task(name: String, duration : Int, requirements: List[task])
+                                                                 ^^^^
+2023.11.28 20:14:50 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.59s
+2023.11.28 20:14:55 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:14:56 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.08s
+Nov. 28, 2023 8:15:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2365
+2023.11.28 20:15:27 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:15:29 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.17s
+2023.11.28 20:16:57 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:16:58 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.43s
+2023.11.28 20:17:38 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:17:39 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.18s
+Nov. 28, 2023 8:18:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3099
+2023.11.28 20:19:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:118:21: 
+Not found: maxRequirementsDuration
+    task.duration + maxRequirementsDuration(task.requirements)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.28 20:19:43 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.78s
+Nov. 28, 2023 8:19:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/scala-project/.metals/.reports/metals-full/2023-11-28/r_compiler-error_20-19-50-588.md
+2023.11.28 20:22:27 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:121:13: 
+Not found: headDuration
+            headDuration = totalDuration(head)
+            ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:122:13: 
+Not found: tailDuration
+            tailDuration = maxRequirementsDuration(tail)
+            ^^^^^^^^^^^^
+2023.11.28 20:22:27 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.77s
+2023.11.28 20:23:06 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:121:13: 
+Not found: headDuration
+            headDuration = totalDuration(head)
+            ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:122:13: 
+Not found: tailDuration
+            tailDuration = maxRequirementsDuration(tail)
+            ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:123:16: 
+Not found: headDuration
+            if headDuration > tailDuration then headDuration
+               ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:123:49: 
+Not found: headDuration
+            if headDuration > tailDuration then headDuration
+                                                ^^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example.worksheet.sc:124:18: 
+Not found: tailDuration
+            else tailDuration
+                 ^^^^^^^^^^^^
+2023.11.28 20:23:07 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.79s
+2023.11.28 20:23:23 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:23:24 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.2s
+2023.11.28 20:23:41 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:23:42 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.13s
+2023.11.28 20:28:17 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:28:18 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.46s
+2023.11.28 20:28:25 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:28:26 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.14s
+2023.11.28 20:29:06 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:29:07 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.08s
+2023.11.28 20:29:26 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:29:28 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.16s
+2023.11.28 20:42:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:135:32: 
+Found:    Unit
+Required: Int
+            .map(totalDuration2)
+                               ^
+2023.11.28 20:42:49 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.83s
+2023.11.28 20:43:41 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+[31merror[39m: src/main/scala/example/example.worksheet.sc:137:25: 
+Found:    Unit
+Required: Int
+            .getOrElse(0)
+                        ^
+2023.11.28 20:43:42 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.95s
+Nov. 28, 2023 8:43:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4507
+2023.11.28 20:44:17 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:44:19 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.21s
+2023.11.28 20:44:30 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.28 20:44:32 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.37s
+2023.11.29 14:44:26 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.29 14:44:28 INFO  time: evaluated worksheet 'example.worksheet.sc' in 2.08s
+2023.11.29 14:45:02 INFO  Shutting down server
+2023.11.29 14:45:02 INFO  shutting down Metals
+2023.11.29 14:45:02 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.29 14:45:02 INFO  Exiting server
+2023.11.29 20:48:24 INFO  Started: Metals version 1.1.0 in folders '/Users/mingma/scala-project' for client Visual Studio Code 1.84.2.
+2023.11.29 20:48:26 WARN  Build server is not auto-connectable.
+2023.11.29 20:48:26 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc
+2023.11.29 20:48:34 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.29 20:48:38 INFO  time: evaluated worksheet 'example.worksheet.sc' in 11s
+2023.11.29 20:48:38 INFO  time: code lens generation in 12s
+2023.11.29 20:48:38 INFO  time: code lens generation in 4.29s
+2023.11.29 20:48:41 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.29 20:48:46 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.29 20:48:47 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.62s
+2023.11.29 20:48:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.29 20:48:49 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.42s
+2023.11.29 20:48:49 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.30 20:00:16 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:11:29: 
+value + is not a member of MdocApp.this.Lengths.Meters
+  val fourMeters1: Double = twoMeters + twoMeters
+                            ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:12:16: 
+Found:    (fourMeters1 : Double)
+Required: MdocApp.this.Lengths.Meters
+  println(show(fourMeters1))
+               ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:13:29: 
+Found:    MdocApp.this.Lengths.Meters
+Required: Double
+  val fourMeters2: Double = add(twoMeters, twoMeters)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.30 20:00:16 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.66s
+2023.11.30 20:14:50 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:11:29: 
+value + is not a member of MdocApp.this.Lengths.Meters
+  val fourMeters1: Double = twoMeters + twoMeters // Invalid
+                            ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:12:16: 
+Found:    (fourMeters1 : Double)
+Required: MdocApp.this.Lengths.Meters
+  println(show(fourMeters1))
+               ^^^^^^^^^^^
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:13:29: 
+Found:    MdocApp.this.Lengths.Meters
+Required: Double
+  val fourMeters2: Double = add(twoMeters, twoMeters) // Invalid
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.30 20:14:51 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.28s
+2023.11.30 20:15:08 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:12:16: 
+Not found: fourMeters1
+  println(show(fourMeters1))
+               ^^^^^^^^^^^
+2023.11.30 20:15:08 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.18s
+2023.11.30 20:15:11 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:15:11 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.37s
+2023.11.30 20:15:23 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:15:24 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.42s
+2023.11.30 20:15:38 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:15:39 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.47s
+2023.11.30 20:16:00 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:16:01 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.47s
+2023.11.30 20:16:23 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:18:24: : expected but val found
+class Logarithm(public val underlying: Double):
+                       ^^^
+2023.11.30 20:16:23 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.33s
+2023.11.30 20:16:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:16:49 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.46s
+2023.11.30 20:16:54 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:18:24: : expected but val found
+class Logarithm(public val underlying: Double):
+                       ^^^
+2023.11.30 20:16:54 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.22s
+2023.11.30 20:18:40 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:18:40 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.49s
+2023.11.30 20:18:51 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:33:1: 
+value show is not a member of MdocApp.this.Logarithm
+l2.show
+^^^^^^^
+2023.11.30 20:18:51 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.23s
+2023.11.30 20:18:57 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:18:57 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.41s
+2023.11.30 20:24:46 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:24:47 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.41s
+2023.11.30 20:30:48 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:30:49 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.39s
+2023.11.30 20:31:22 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:31:22 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.39s
+2023.11.30 20:42:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:42:42 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.36s
+2023.11.30 20:42:49 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:42:49 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.42s
+2023.11.30 20:43:30 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:43:31 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.41s
+2023.11.30 20:44:05 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:44:05 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.48s
+2023.11.30 20:46:01 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:46:01 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.4s
+Nov. 30, 2023 8:46:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1415
+Nov. 30, 2023 8:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1877
+2023.11.30 20:49:05 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:49:05 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.47s
+2023.11.30 20:49:26 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:49:26 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.46s
+2023.11.30 20:49:44 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.11.30 20:49:44 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.54s
+2023.12.01 13:54:24 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.12.01 13:54:25 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 1.2s
