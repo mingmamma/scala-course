@@ -2047,3 +2047,203 @@ val mnemonics = Mnemonics(dictionary)
 2023.12.03 09:20:31 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
 2023.12.03 13:08:33 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
 2023.12.03 13:08:35 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 1.97s
+2023.12.03 13:09:25 INFO  Shutting down server
+2023.12.03 13:09:25 INFO  shutting down Metals
+2023.12.03 13:09:25 INFO  Exiting server
+2023.12.06 16:54:54 INFO  Started: Metals version 1.1.0 in folders '/Users/mingma/scala-project' for client Visual Studio Code 1.84.2.
+2023.12.06 16:54:55 WARN  Build server is not auto-connectable.
+2023.12.06 16:54:55 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.12.06 16:55:02 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.06 16:55:03 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 8.06s
+2023.12.06 16:55:09 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.06 16:55:09 INFO  time: code lens generation in 3.69s
+2023.12.06 16:55:09 INFO  time: code lens generation in 5.6s
+2023.12.06 16:55:09 INFO  time: code lens generation in 6.27s
+2023.12.06 16:55:09 INFO  time: code lens generation in 7.62s
+2023.12.06 16:55:09 INFO  time: code lens generation in 14s
+2023.12.06 16:55:09 INFO  time: code lens generation in 14s
+2023.12.06 16:55:09 INFO  time: code lens generation in 2.82s
+2023.12.06 16:55:09 INFO  time: code lens generation in 1.59s
+2023.12.06 16:55:09 INFO  time: code lens generation in 2.13s
+Dec. 06, 2023 4:55:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+Dec. 06, 2023 4:56:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+2023.12.06 16:57:12 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:94:1: 
+Found:    Unit
+Required: Seq[String]
+}
+^
+2023.12.06 16:57:13 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 1.25s
+2023.12.06 16:57:55 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.12.06 16:57:56 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 1.27s
+2023.12.06 17:03:37 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:49: => expected but ( found
+      datestrings.foldLeft([Try[Seq[LocalDate]]](Success(Vector.empty)))
+                                                ^
+2023.12.06 17:03:37 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.41s
+2023.12.06 17:06:57 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:49: => expected but ( found
+      datestrings.foldLeft([Try[Seq[LocalDate]]](Success(Vector.empty)){
+                                                ^
+2023.12.06 17:06:58 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.27s
+2023.12.06 17:07:54 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:58: 
+Found:    Vector[Any]
+Required: mdoc.document.RangePosition
+      datestrings.foldLeft[Try[Seq[LocalDate]]]((Success(Vector.empty)){
+                                                         ^^^^^^^^^^^^
+2023.12.06 17:07:55 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.6s
+2023.12.06 17:08:27 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:58: 
+Found:    Vector[Any]
+Required: mdoc.document.RangePosition
+      datestrings.foldLeft[Try[Seq[LocalDate]]]((Success(Vector.empty)) {
+                                                         ^^^^^^^^^^^^
+2023.12.06 17:08:28 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.66s
+2023.12.06 17:09:01 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:57: 
+Found:    Vector[Any]
+Required: mdoc.document.RangePosition
+      datestrings.foldLeft[Try[Seq[LocalDate]]](Success(Vector.empty) {
+                                                        ^^^^^^^^^^^^
+2023.12.06 17:09:02 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.67s
+2023.12.06 17:09:32 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:57: 
+Found:    Vector[Any]
+Required: mdoc.document.RangePosition
+      datestrings.foldLeft[Try[Seq[LocalDate]]](Success(Vector.empty)) {
+                                                        ^^^^^^^^^^^^
+2023.12.06 17:09:33 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.59s
+2023.12.06 17:10:22 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:104:57: 
+Found:    Vector[Any]
+Required: mdoc.document.RangePosition
+      datestrings.foldLeft[Try[Seq[LocalDate]]](Success(Vector.empty)) {
+                                                        ^^^^^^^^^^^^
+2023.12.06 17:10:23 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.65s
+2023.12.06 17:14:19 WARN  no build target for: /Users/mingma/Downloads/13_error_handling/src/main/scala/manipulating_try_values/parsingDates.worksheet.sc
+2023.12.06 17:14:20 INFO  time: evaluated worksheet 'parsingDates.worksheet.sc' in 0.88s
+2023.12.06 17:14:24 INFO  no build target found for /Users/mingma/Downloads/13_error_handling/src/main/scala/manipulating_try_values/parsingDates.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.06 17:15:19 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:115:3: 
+Not found: readDateStrings
+  readDateStrings(fileName).flatMap { dateStrings =>
+  ^^^^^^^^^^^^^^^
+2023.12.06 17:15:20 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.65s
+2023.12.06 17:15:30 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+Dec. 06, 2023 5:15:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2280
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:116:55: 
+Found:    Vector[java.time.LocalDate]
+Required: mdoc.document.RangePosition
+    dateStrings.foldLeft[Try[Seq[LocalDate]]](Success(Vector.empty[LocalDate])) {
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+2023.12.06 17:15:30 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.63s
+2023.12.06 17:16:59 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:103:55: 
+Found:    Vector[java.time.LocalDate]
+Required: mdoc.document.RangePosition
+    dateStrings.foldLeft[Try[Seq[LocalDate]]](Success(Vector.empty[LocalDate])) {
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+2023.12.06 17:17:00 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.57s
+2023.12.06 17:17:05 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:103:55: 
+Found:    Seq[java.time.LocalDate]
+Required: mdoc.document.RangePosition
+    dateStrings.foldLeft[Try[Seq[LocalDate]]](Success(Seq.empty[LocalDate])) {
+                                                      ^^^^^^^^^^^^^^^^^^^^
+2023.12.06 17:17:06 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.78s
+2023.12.06 17:19:44 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:95:3: 
+Not found: Using
+  Using (Source.fromFile(filename)) {
+  ^^^^^
+2023.12.06 17:19:45 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.57s
+2023.12.06 17:19:59 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:96:3: 
+Found:    scala.util.Try[Seq[String]]
+Required: Seq[String]
+  Using (Source.fromFile(filename)) {
+  ^
+2023.12.06 17:19:59 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.51s
+2023.12.06 17:20:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.12.06 17:20:42 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:96:3: 
+Found:    scala.util.Try[Seq[String]]
+Required: Seq[String]
+  Using (Source.fromFile(filename)) {
+  ^
+2023.12.06 17:20:42 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.49s
+[31merror[39m: src/main/scala/example/example2.worksheet.sc:96:3: 
+Found:    scala.util.Try[Seq[String]]
+Required: Seq[String]
+  Using (Source.fromFile(filename)) {
+  ^
+2023.12.06 17:20:43 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.6s
+2023.12.06 17:20:55 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.12.06 17:20:56 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 1.01s
+2023.12.06 18:35:22 INFO  Shutting down server
+2023.12.06 18:35:22 INFO  shutting down Metals
+2023.12.06 18:35:22 INFO  Exiting server
+2023.12.08 08:34:05 INFO  Started: Metals version 1.1.0 in folders '/Users/mingma/scala-project' for client Visual Studio Code 1.85.0.
+2023.12.08 08:34:06 WARN  Build server is not auto-connectable.
+2023.12.08 08:34:06 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc
+2023.12.08 08:34:15 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 8.65s
+2023.12.08 08:34:15 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.08 08:34:18 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/example/example2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.08 08:34:18 WARN  no build target for: /Users/mingma/scala-project/src/main/scala/combining_try_and_either/parsingDates.worksheet.sc
+2023.12.08 08:34:19 INFO  time: code lens generation in 13s
+2023.12.08 08:34:19 INFO  time: evaluated worksheet 'parsingDates.worksheet.sc' in 1.42s
+2023.12.08 08:34:22 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2k/yqztx7j11_70cvfdxc0p1bl80000gn/T/metals12587603890761742701/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.08 08:34:22 WARN  no build target for: /Users/mingma/scala-project/project/metals.sbt
+2023.12.08 08:34:22 WARN  no build target for: /Users/mingma/scala-project/project/project/metals.sbt
+2023.12.08 08:34:22 INFO  skipping build import with status 'Started'
+2023.12.08 08:34:22 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.0  (this may take some time)...
+2023.12.08 08:34:23 INFO  no build target found for /Users/mingma/scala-project/src/main/scala/combining_try_and_either/parsingDates.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.08 08:34:39 INFO  [info] welcome to sbt 1.9.0 (AdoptOpenJDK Java 11.0.7)
+2023.12.08 08:34:42 INFO  [info] loading settings for project scala-project-build-build from metals.sbt ...
+2023.12.08 08:34:42 INFO  [info] loading project definition from /Users/mingma/scala-project/project/project
+2023.12.08 08:34:45 INFO  [info] loading settings for project scala-project-build from metals.sbt ...
+2023.12.08 08:34:45 INFO  [info] loading project definition from /Users/mingma/scala-project/project
+2023.12.08 08:34:51 INFO  [success] Generated .bloop/scala-project-build.json
+2023.12.08 08:34:51 INFO  [success] Total time: 5 s, completed 8 Dec. 2023, 8:34:51 am
+2023.12.08 08:34:51 INFO  [info] loading settings for project scala-project from build.sbt ...
+2023.12.08 08:34:51 INFO  [info] set current project to scala-project (in build file:/Users/mingma/scala-project/)
+2023.12.08 08:34:52 INFO  [success] Generated .bloop/scala-project-test.json
+2023.12.08 08:34:52 INFO  [success] Generated .bloop/scala-project.json
+2023.12.08 08:34:52 INFO  [success] Total time: 0 s, completed 8 Dec. 2023, 8:34:52 am
+2023.12.08 08:34:53 INFO  time: ran 'sbt bloopInstall' in 30s
+2023.12.08 08:34:53 INFO  Attempting to connect to the build server...
+2023.12.08 08:34:53 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2023.12.08 08:34:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/scala-project/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.08 08:34:53 INFO  Attempting to connect to the build server...
+2023.12.08 08:34:53 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2023.12.08 08:34:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/scala-project/project/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.08 08:34:59 INFO  time: Connected to build server in 6.12s
+2023.12.08 08:34:59 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.08 08:35:12 INFO  time: indexed workspace in 13s
+2023.12.08 08:35:19 INFO  time: code lens generation in 6.39s
+2023.12.08 08:50:44 INFO  compiling scala-project (2 scala sources)
+2023.12.08 08:50:46 INFO  time: compiled scala-project in 1.09s
+2023.12.08 08:50:51 INFO  time: evaluated worksheet 'parsingDates.worksheet.sc' in 5.41s
+2023.12.08 08:52:02 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 2.37s
+2023.12.08 08:52:12 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.96s
+2023.12.08 08:52:16 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 1.21s
+2023.12.08 08:52:28 INFO  time: evaluated worksheet 'example2.worksheet.sc' in 0.95s
+2023.12.08 08:54:10 INFO  compiling scala-project (1 scala source)
+2023.12.08 08:54:10 INFO  time: compiled scala-project in 0.43s
+2023.12.08 08:55:07 INFO  compiling scala-project (1 scala source)
+2023.12.08 08:55:07 INFO  time: compiled scala-project in 0.53s
+2023.12.08 08:57:13 INFO  compiling scala-project (1 scala source)
+2023.12.08 08:57:13 INFO  time: compiled scala-project in 0.21s
+2023.12.08 08:57:18 INFO  compiling scala-project (1 scala source)
+2023.12.08 08:57:18 INFO  time: compiled scala-project in 0.35s
