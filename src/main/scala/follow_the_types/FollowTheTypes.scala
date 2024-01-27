@@ -26,10 +26,18 @@ def read(path: Path): Try[String] =
 def readAllFilesWrong(tentativePaths: Try[Seq[Path]]): Try[Seq[Try[String]]] =
   tentativePaths.map(paths => paths.map(path => read(path)))
 
+// Debugging readAllFiles
+// def readAllFiles(tentativePaths: Try[Seq[Path]]): Try[Seq[String]] =
+//   tentativePaths.map[Seq[String]](paths => paths.map[String](path => read(path)))
+
 case class MyResult[A](tentativeValidatedValue: Try[Validated[A]]):
 
   def map[B](f: A => B): MyResult[B] =
-    MyResult(tentativeValidatedValue.map(validatedValue => validatedValue.map(f)))
+    // rewrote map following flatMap below
+    val tentativeValidatedB: Try[Validated[B]] = 
+    tentativeValidatedValue.map(validatedValue => validatedValue.map(f))
+    MyResult(tentativeValidatedB)
+    // MyResult(tentativeValidatedValue.map(validatedValue => validatedValue.map(f)))
 
   def flatMap[B](f: A => MyResult[B]): MyResult[B] =
     val tentativeValidatedB: Try[Validated[B]] =
