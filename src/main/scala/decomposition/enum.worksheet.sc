@@ -1,10 +1,13 @@
+// Recall the convention of starting with a base trait and defining case classes as subtypes in the companion object
+// to model Algebraic Data Type (ADT), which models pure data composed of finite cases without associated functions
+// Trait Expr
 // object Expr:        
 //     case class Num(n: Int) extends Expr
 //     case class Sum(e1: Expr, e2: Expr) extends Expr
 //     case class Product(e1: Expr, e2: Expr) extends Expr
 //     case class Var(v: String) extends Expr
 
-// Equivalent Algebraic Data Type(a.k.a pure-data/no-method hierachy of case class) definition with enum
+// enum syntax further simplifies representing ADT by saving the repetitive patterns e.g case class ... extends ...
 enum Expr:
     case Num(n: Int)
     case Sum(e1: Expr, e2: Expr)

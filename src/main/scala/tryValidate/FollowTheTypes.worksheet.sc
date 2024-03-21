@@ -1,4 +1,4 @@
-package follow_the_types
+// package follow_the_types
 
 import java.time.LocalDate
 import java.nio.file.Path

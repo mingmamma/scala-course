@@ -181,5 +181,5 @@ def readAndParseDates2(filePath: String): Try[Validated[Vector[LocalDate]]] =
 
 // Noting the improvement over read and parse dates V1 where the return type Try[Vector[LocalDate]] cannot accumulate error&exceptions
 // beyond the first occurance
-readAndParseDates2("./src/main/scala/try_validate/dates-file.txt")
+readAndParseDates2("./src/main/scala/tryValidate/dates-file.txt")
 
